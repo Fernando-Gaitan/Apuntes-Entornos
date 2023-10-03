@@ -1,1 +1,61 @@
-1. Introducción
+Tipos de Software:
+  Software de Sistema: Es software, es decir el conjunto de algoritmos intangibles. Es el tipo de software más cercano al hardware. (Sistema operativo, drivers, firmware…)
+  Software de Aplicación: Es un software para funciones concretas usados por el usuario. (Suite ofimática, navegador, editor de imágenes…)
+  Software de Desarrollo: Es el software usado para crear software, (Editores, compiladores, intérpretes…)
+
+Relación hardware-software
+  Memoria secundaria: Puede ser un disco duro, una SSD o algo así. Almacena datos. Se considera periférico de entrada y salida.
+  Memoria RAM: Almacena de forma temporal los datos necesarios para la CPU.
+  CPU, procesador o microprocesador (UCP): Lee y ejecuta instrucciones.
+  Periféricos de entrada y salida o E/S o I/O: Para la entrada y salida de datos.
+
+Tipos de código en un lenguaje compilado
+  En los lenguajes interpretados sólo hay código fuente.
+  · Código fuente: Archivo de texto entendible por un ser humano usado para construir el programa.
+  · Código objeto: Es un código intermedio. Es un archivo en binario y se genera a partir del código fuente. A partir de este se genera el código ejecutable. 
+  · Código ejecutable: Lo puede correr el ordenador, es un archivo binario, se puede ejecutar, se genera a partir del código objeto, se comienza a ejecutar en la CPU o micro.
+  ¿Qué son los lenguajes compilados? Deben ser compilados por los compiladores. Al ser compilados se crea un código objeto o código compilado que sólo sirve para un hardware concreto y que es fácil de leer para la máquina pero difícil para el humano, de bajo nivel. (C++, C, Java…)
+  Un lenguaje interpretado sin embargo va compilando y ejecutando las líneas una a una sin generar código objeto. (PHP, Javascript…)
+
+Ciclo de vida del software
+  Análisis: Qué necesito. Qué se necesita, cuáles son los requisitos. Los requisitos deben pedirse al cliente. Los requisitos deben ser completos, conciso, con lenguaje formal sin ambigüedades, poco detallado, entendible por el cliente, debe separar los requisitos funcionales y no funcionales. Debe dividir y jerarquizar el modelo y establecer criterios de validación.
+  Diseño: Cómo lo vamos a hacer, la arquitectura también, ¿Cuál es la solución? Se le proponen al cliente varias soluciones. Se descompone y organiza el sistema en elementos y componentes que puedan desarrollarse en paralelo. Se especifica a interrelaciones y funcionalidades de los componentes. Las actividades habituales del diseño son: El diseño arquitectónico, el diseño detallado, el diseño de datos y el diseño de interfaz de usuario.
+  Codificación: Picar código. Se escribe el código fuente de cada componente.
+  Pruebas: Definir las pruebas y realizarlas. Descubrir malos funcionamientos y errores sometiendo al sistema a las máximas situaciones. Hay pruebas de unidades, de integración y de sistema.
+  Documentación y mantenimiento: Documentar, actualizar, parchear. Al pasar el tiempo el software necesitará cambios Tipos de mantenimiento: Correctivo, preventivo, perfectivo, evolutivo y el adaptativo (Este es para adaptar el programa a otros medios).
+
+Modelos de desarrollo del software
+  Modelos clásicos o predictivos: Modelo en cascada, modelo en V.
+  Modelo de construcción de prototipos.
+  Modelos evolutivos o incrementales: Modelo en espiral o iterativo, metodologías ágiles o adaptativas.
+
+Modelo en cascada
+  Uno a uno todos los pasos del desarrollo.
+
+Modelo en V
+  Los pasos del desarrollo se van mezclando o intercalando para ver los problemas antes.
+
+Prototipos
+  Se crean en la fase de análisis y pueden rehacerse hasta estar enfocados correctamente.
+  Hay prototipos rápidos hechos con código hecho para hacer prototipos o sin código incluso y prototipos lentos que se hacen en el código del programa final.
+
+Modelo en espiral
+  Se vuelven a trabajar las partes que no sirven una y otra vez hasta que funcionen
+
+Metodologías ágiles
+  Las más conocidas son Kanban, Scrum, XP (eXtreme Programming)
+
+Conceptos sueltos, cosas que hay que conectar con otros puntos
+  Firmware: Software de sistema muy cercano al hardware. ej. Cualquier cosa que tenga un microcontrolador tendrá firmware. Un programa muy simple y pequeño que está a muy bajo nivel.
+  Driver: Está en término de niveles entre el firmware y el sistema operativo.
+Las memorias están jerarquizadas, las más cercanas al CPU son más rápidas y con poca memoria y viceversa. Mirar tipos de memorias en la imagen de arriba
+  Memoria secundaria o memoria permanente o memoria masiva (Disco duro, SSD…): Almacena permanentemente
+  Memoria primaria (Memoria RAM): Es volátil. El ordenador accede primero aquí en busca de los programas, y si no está aquí va a la memoria secundaria.
+  CPU: El cerebro del ordenador. Lee y ejecuta instrucciones almacenadas en la RAM, así como los datos necesarios. Los registros y la caché están dentro de la CPU. Las CPUs tienen cores y los cores tienen hilos.
+  Hay varios tipos de caché.
+  Los hilos de los cores de las CPUs buscan instrucciones para ejecutarlas en un orden óptimo.
+  Una cosa compilada no funciona en otro pc porque está adaptado al Hardware del ordenador.
+  La memoria secundaria es un periférico de entrada/salida o E/S.
+  Un monitor es un periférico de salida porque saca información.
+  Las CPUs pueden llamarse procesadores o microprocesadores.
+  Mockup: Un diseño estático como prueba del diseño final.
