@@ -45,10 +45,33 @@ Modelo en espiral
 Metodologías ágiles
   Las más conocidas son Kanban, Scrum, XP (eXtreme Programming)
 
+Hay que ordenar esto dentro de metodologías ágiles y sus subpuntos:
+  Los requisitos y soluciones pueden cambiar con el tiempo.
+  El trabajo es realizado con la colaboración de equipos auto-organizados y multidisciplinarios con procesos compartidos de decisiones a corto plazo. Cada trabajo debe ser capaz de hacer todas las etapas en su “trocito” del proyecto, ser autosuficiente.
+  Puede haber gente dentro de estas metodologías dedicada sólo a que la metodología se siga correctamente.
+  Las metodologías tienen un seguimiento exhaustivo de las tareas y cómo hacerlas, quién las está haciendo, quién hace cambios, etc.
+  La unidad de trabajo es sprint. Después de cada sprint hay una reunión con el cliente donde se le explica todo lo que se ha hecho o no se ha hecho.
+  En un sprint las historias deben pasar todos los procesos. Estos prints duran de 2 a 4 semanas. Al principio de cada sprint se establecen las tareas. Al final del sprint el programa tiene una funcionalidad más que el cliente puede probar.
+  Hay reuniones diarias llamadas Daily de no más de 15 minutos en las que se ve cómo va el sprint.
+  Hay reuniones extraordinarias también.
+  El “product owner” es el que está entre el cliente y los equipos. Define los criterios y se asegura que se cumplen.
+  Scrum Master:
+  Team:
+  Product backlog:
+  Sprint Backlog:
+  Incremento:
+  Sprint:
+  Sprint Planning:
+  Daily Scrum:
+  Scrum Review:
+  Scrum Retrospective:
+  Retrofeed: Volver hacia atrás para cambiar cosas.
+
+
 Conceptos sueltos, cosas que hay que conectar con otros puntos
   Firmware: Software de sistema muy cercano al hardware. ej. Cualquier cosa que tenga un microcontrolador tendrá firmware. Un programa muy simple y pequeño que está a muy bajo nivel.
   Driver: Está en término de niveles entre el firmware y el sistema operativo.
-Las memorias están jerarquizadas, las más cercanas al CPU son más rápidas y con poca memoria y viceversa. Mirar tipos de memorias en la imagen de arriba
+  Las memorias están jerarquizadas, las más cercanas al CPU son más rápidas y con poca memoria y viceversa. Mirar tipos de memorias en la imagen de arriba
   Memoria secundaria o memoria permanente o memoria masiva (Disco duro, SSD…): Almacena permanentemente
   Memoria primaria (Memoria RAM): Es volátil. El ordenador accede primero aquí en busca de los programas, y si no está aquí va a la memoria secundaria.
   CPU: El cerebro del ordenador. Lee y ejecuta instrucciones almacenadas en la RAM, así como los datos necesarios. Los registros y la caché están dentro de la CPU. Las CPUs tienen cores y los cores tienen hilos.
