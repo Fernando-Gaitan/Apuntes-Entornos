@@ -43,7 +43,12 @@ Modelo en espiral
   Se vuelven a trabajar las partes que no sirven una y otra vez hasta que funcionen
 
 Metodologías ágiles
+  Las metodologías ágiles son metodologías de trabajo que se basan en subdividir el desarrollo para hacerlo más manejable, crear una organización fluida y flexible y plantear unos principios que propicien la eficiencia y mejora en el tiempo.
+  Estas metodologías son iterativas e incrementales, osea que van poco a poco añadiendo funcionalidades en unidades de tiempo de trabajo.
   Las más conocidas son Kanban, Scrum, XP (eXtreme Programming)
+Kanban
+Scrum
+XP
 
 Hay que ordenar esto dentro de metodologías ágiles y sus subpuntos:
   Los requisitos y soluciones pueden cambiar con el tiempo.
@@ -66,6 +71,27 @@ Hay que ordenar esto dentro de metodologías ágiles y sus subpuntos:
   Scrum Review:
   Scrum Retrospective:
   Retrofeed: Volver hacia atrás para cambiar cosas.
+
+Lenguajes de programación
+  Para obtener un código ejecutable podemos interpretar o compilar según qué tipo de código sea.
+  Script = Código interpretado
+  Los lenguajes pueden ser declarativos (Que no especificas los pasos para obtener los resultados) e imperativos (Que sí especifican)
+  Los lenguajes declarativos suelen ser interpretados y pueden ser lógicos (Que usan reglas) como prolog, funcionales (Que usan funciones) como Lisp o Haskell y algebraicos (Que usan sentencias) como SQL.
+  Los lenguajes declarativos suelen ser compilados y pueden ser estructurados como C, orientados a objetos como Java o multiparadigma como C++ o Javascript.
+  Los lenguajes pueden ser de alto nivel (C++, Java), de medio nivel(C) o de bajo nivel (ensamblador)
+  El lenguaje ensamblador trabaja directamente sobre el microprocesador.
+Compilación/Interpretación
+  Al compilar o interpretar se hace primero el análisis léxico y después el análisis sintáctico, y si en los análisis no se detecta ningún error se genera el código objeto.
+  Los lenguajes compilados como C o C + + son muy eficientes, pero hace falta compilar cada vez que el código fuente es modificado.  
+  Los lenguajes interpretados como PHP o Javascript no generan código objeto . Se ejecuta directamente pero es menos eficiente.
+Java
+  Es un lenguaje de programación compilado e interpretado.
+  El código fuente genera un código objeto llamado bytecode que es un código binario intermedio.
+  El bytecode puede considerarse un código objeto pero para la máquina virtual en vez de para la máquina nativa.
+  El bytecode se interpreta desde la máquina virtual.
+  Por esto en Java debes instalar su máquina virtual.
+  
+  Java es un lenguaje orientado a objetos. Es fácil de aprender, es bueno para documentar y tiene una comunidad activa.
 
 
 Conceptos sueltos, cosas que hay que conectar con otros puntos
