@@ -1,0 +1,12 @@
+1. El firmware es un...
+software de sistema
+software de desarrollo
+software de aplicación
+hardware
+
+2. La CPU lee y ejecuta...
+instrucciones en código binario almacenadas en la RAM
+instrucciones en código fuente almacenadas en la RAM
+instrucciones en código binario almacenadas en el disco duro
+instrucciones en código fuente almacenadas en el disco duro
+
