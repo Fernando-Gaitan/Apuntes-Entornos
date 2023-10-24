@@ -10,3 +10,38 @@ instrucciones en código fuente almacenadas en la RAM
 instrucciones en código binario almacenadas en el disco duro
 instrucciones en código fuente almacenadas en el disco duro
 
+3. ¿Cuál de estos no es un lenguaje de programación?
+XML
+C++
+Java
+JavaScript
+
+4. ¿Qué se hace en el mantenimiento correctivo?
+Corregir la funcionalidad
+Perfeccionar la funcionalidad
+Corregir la documentación
+Corregir el Backlog
+
+5. ¿Cuáles de las siguientes metodologías NO es ágil?
+En cascada
+Scrum
+Kanban
+Ninguna es ágil
+
+6. ¿Cuál de estas metodologías tiene roles?
+Scrum
+XP
+En cascada
+Todas las metodologías ágiles tienen roles
+
+7. Selecciona la verdadera
+Todas son verdaderas
+El lenguaje compilado es más rápido
+El lenguaje interpretado ofrece más facilidades al desarrollador
+Hay lenguajes que son a la vez compilados e interpretados
+
+8. El código ejectuable es...
+binario
+portable
+compilable
+interpretable
