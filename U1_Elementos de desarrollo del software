@@ -56,10 +56,12 @@ Metodologías ágiles
   Las metodologías ágiles son metodologías de trabajo que se basan en subdividir el desarrollo para hacerlo más manejable, crear una organización fluida y flexible y plantear unos principios que propicien la eficiencia y mejora en el tiempo.
   Estas metodologías son iterativas e incrementales, osea que van poco a poco añadiendo funcionalidades en unidades de tiempo de trabajo.
   Las más conocidas son Kanban, Scrum, XP (eXtreme Programming)
-Kanban
 Scrum
-  Suele usarse en desarrollos de software. Es útil para gestionar proyectos. Usa las historias de usuario (las subdivisiones útiles mínimas de los requisitos del proyecto) y los sprint (iteraciones de trabajo de 2 a 4 semanas a los que se asigna una historia a cada equipo que debe terminar antes de que termine la iteración) y los roles (posiciones y responsabilidades dentro de la metodología scrum).
+  Suele usarse en desarrollos de software. Es útil para gestionar proyectos. Usa las historias de usuario (las subdivisiones útiles mínimas de los requisitos del proyecto) y los sprint (iteraciones de trabajo de 2 a 4 semanas a los que se asigna una historia a cada equipo que debe terminar antes de que termine la iteración y que tiene como resultado una entrega parcial entregable), los roles (posiciones y responsabilidades dentro de la metodología scrum) y las reuniones (que sirven para organizar todo, ponerse al día y ver cómo va el proyecto o cómo cambia).
+Kanban
+  Esta metodología es muy similar a Scrum, aunque tiene algunas diferencias importantes. En Kanban se establecen estados en los que pueden estar las historias, por ejemplo, “Pendiente”, “En proceso” y “Terminado”. Tiene un flujo de trabajo continuo, sin iteraciones. Las historias se ordenan por urgencia e importancia. Hay mucha comunicación con el cliente. Tiene mucha flexibilidad.
 XP
+  Tiene 4 valores y 12 prácticas. Los valores son: Simplicidad, Comunicación, Retroalimentación, Valentía y Respeto. Sus características son que tiene un diseño sencillo, tiene mejoras sencillas continuas, posee pruebas y refactorización, usa la integración continua, se utiliza la programación por parejas en iteraciones semanales de 40 horas, el cliente se integra en el equipo de desarrollo y usa estándares de codificación.
 
 Hay que ordenar esto dentro de metodologías ágiles y sus subpuntos:
   Los requisitos y soluciones pueden cambiar con el tiempo.
@@ -86,6 +88,7 @@ Hay que ordenar esto dentro de metodologías ágiles y sus subpuntos:
 Lenguajes de programación
   Para obtener un código ejecutable podemos interpretar o compilar según qué tipo de código sea.
   Script = Código interpretado
+Paradigmas de los lenguajes de programación
   Los lenguajes pueden ser declarativos (Que no especificas los pasos para obtener los resultados) e imperativos (Que sí especifican)
   Los lenguajes declarativos suelen ser interpretados y pueden ser lógicos (Que usan reglas) como prolog, funcionales (Que usan funciones) como Lisp o Haskell y algebraicos (Que usan sentencias) como SQL.
   Los lenguajes declarativos suelen ser compilados y pueden ser estructurados como C, orientados a objetos como Java o multiparadigma como C++ o Javascript.
