@@ -4,10 +4,10 @@ Tipos de Software:
   Software de Desarrollo: Es el software usado para crear software, (Editores, compiladores, intérpretes…)
 
 Relación hardware-software
-Microprocesador o procesador: También llamado CPU (UCP en español) aunque de forma algo incorrecta ya que hoy en día un “micro” puede contener varias CPUs. Esta parte del ordenador se encarga de leer y ejecutar instrucciones, es el cerebro o el procesador, compuesto por una o varias Unidades Centrales de Procesamiento. Este componente es el más rápido, pero su memoria llamada caché es extremadamente limitada y volátil.
-Memoria principal o RAM: Es un tipo de memoria volátil, es decir temporal, situada a nivel de procesos en el sistema informático entre la memoria secundaria y el microprocesador. Esta memoria es mucho más rápida que la memoria principal, pero de mucha menor capacidad, y es utilizada por el microprocesador para almacenar temporalmente los datos que pueda necesitar. La capacidad de la memoria principal es mucho mayor que la de la caché, pero también es mucho más lenta que esta.
-Memoria secundaria: Este tipo de memoria es permanente, por lo que no se borra al apagar el sistema. Tiene una capacidad mucho más masiva pero mucha menor velocidad, y se usa para guardar el groso de la información y datos que no se vayan a procesar en breves. Los sistemas operativos tienen la posibilidad de usar parte de la memoria secundaria como memoria principal creando una suerte de partición, pero es algo que ralentiza gravemente los procesos y solo se hace si la memoria principal no tiene más espacio libre y no queda más remedio.
-Periféricos de entrada y salida o E/S o I/O: Son los periféricos utilizados para la entrada y salida de datos.
+  Microprocesador o procesador: También llamado CPU (UCP en español) aunque de forma algo incorrecta ya que hoy en día un “micro” puede contener varias CPUs. Esta parte del ordenador se encarga de leer y ejecutar instrucciones, es el cerebro o el procesador, compuesto por una o varias Unidades Centrales de Procesamiento. Este componente es el más rápido, pero su memoria llamada caché es extremadamente limitada y volátil.
+  Memoria principal o RAM: Es un tipo de memoria volátil, es decir temporal, situada a nivel de procesos en el sistema informático entre la memoria secundaria y el microprocesador. Esta memoria es mucho más rápida que la memoria principal, pero de mucha menor capacidad, y es utilizada por el microprocesador para almacenar temporalmente los datos que pueda necesitar. La capacidad de la memoria principal es mucho mayor que la de la caché, pero también es mucho más lenta que esta.
+  Memoria secundaria: Este tipo de memoria es permanente, por lo que no se borra al apagar el sistema. Tiene una capacidad mucho más masiva pero mucha menor velocidad, y se usa para guardar el groso de la información y datos que no se vayan a procesar en breves. Los sistemas operativos tienen la posibilidad de usar parte de la memoria secundaria como memoria principal creando una suerte de partición, pero es algo que ralentiza gravemente los procesos y solo se hace si la memoria principal no tiene más espacio libre y no queda más remedio.
+  Periféricos de entrada y salida o E/S o I/O: Son los periféricos utilizados para la entrada y salida de datos.
 
 Tipos de código en un lenguaje compilado
   En los lenguajes interpretados sólo hay código fuente.
@@ -16,13 +16,23 @@ Tipos de código en un lenguaje compilado
   · Código ejecutable: Lo puede correr el ordenador, es un archivo binario, se puede ejecutar, se genera a partir del código objeto, se comienza a ejecutar en la CPU o micro.
   ¿Qué son los lenguajes compilados? Deben ser compilados por los compiladores. Al ser compilados se crea un código objeto o código compilado que sólo sirve para un hardware concreto y que es fácil de leer para la máquina pero difícil para el humano, de bajo nivel. (C++, C…)
   Un lenguaje interpretado sin embargo va compilando y ejecutando las líneas una a una sin generar código objeto. (PHP, Javascript…)
+  Java es especial, es un lenguaje que se compila y después se interpreta. Se compila en una máquina virtual, por lo que teniendo la máquina virtual instalada el código objeto es portable, y después se interpreta el código objeto de la máquina virtual, que es más rápido que interpretar el código fuente. El código objeto de la máquina virtual en Java se llama Bytecode.
 
 Ciclo de vida del software
   Análisis: Qué necesito. Qué se necesita, cuáles son los requisitos. Los requisitos deben pedirse al cliente. Los requisitos deben ser completos, conciso, con lenguaje formal sin ambigüedades, poco detallado, entendible por el cliente, debe separar los requisitos funcionales y no funcionales. Debe dividir y jerarquizar el modelo y establecer criterios de validación.
+	El resultado del análisis deben ser las especificaciones de requisitos del software.
   Diseño: Cómo lo vamos a hacer, la arquitectura también, ¿Cuál es la solución? Se le proponen al cliente varias soluciones. Se descompone y organiza el sistema en elementos y componentes que puedan desarrollarse en paralelo. Se especifica a interrelaciones y funcionalidades de los componentes. Las actividades habituales del diseño son: El diseño arquitectónico, el diseño detallado, el diseño de datos y el diseño de interfaz de usuario.
+  El resultado del diseño arquitectónico es el documento de arquitectura del software.
+	El resultado del diseño detallado son las especificaciones de módulos y funciones.
   Codificación: Picar código. Se escribe el código fuente de cada componente.
+  El resultado de la codificación es el código fuente.
   Pruebas: Definir las pruebas y realizarlas. Descubrir malos funcionamientos y errores sometiendo al sistema a las máximas situaciones. Hay pruebas de unidades, de integración y de sistema.
+  El resultado de las pruebas de unidades son los módulos utilizables.
+  El resultado de las pruebas de integración es el sistema utilizable.
+  El resultado de las pruebas de sistema es el sistema aceptado.
   Documentación y mantenimiento: Documentar, actualizar, parchear. Al pasar el tiempo el software necesitará cambios Tipos de mantenimiento: Correctivo, preventivo, perfectivo, evolutivo y el adaptativo (Este es para adaptar el programa a otros medios).
+  El resultado de la documentación es la documentación técnica y de usuario.
+  El resultado del mantenimiento es el informe de errores y el control de cambios.
 
 Modelos de desarrollo del software
   Modelos clásicos o predictivos: Modelo en cascada, modelo en V.
